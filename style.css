@@ -1,0 +1,19 @@
+section,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+input::placeholder {
+  text-align: center;
+  font
+  color: gray;
+}
