@@ -8,14 +8,19 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
-      <h1>Todo-list</h1>
-    </section>
-    <section>
-        <input placeholder="What need to be done?" autofocus></input>
+    <header class="header">
+      <h1>TODO LIST</h1>
+    </header>
 
-    </section>
-    <li>qwe</li>
+    <form id="todo-form">
+      <input name="add-todo" autofocus placeholder="Add your todo" />
+      <button onclick="addTodo(e)">123</button>
+    </form>
+    <main class="container">
+      <ul id="todo-list"></ul>
+    </main>
+    <footer class="footer"></footer>
 
+    <script src="app.js"></script>
   </body>
 </html>
